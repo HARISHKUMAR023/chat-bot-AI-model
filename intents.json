@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "How are you?", "Good day", "Hey"],
+        "responses": ["Hello!", "Hi there!", "Greetings!", "How can I assist you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Farewell"],
+        "responses": ["Goodbye!", "See you later!", "Have a great day!", "Farewell!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot"],
+        "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!"]
+      },
+      {
+        "tag": "product_inquiry",
+        "patterns": ["What products do you have?", "Tell me about your products", "What do you sell?", "Product list"],
+        "responses": ["We offer a variety of products including electronics, books, and clothing.", "You can find our products listed on our website.", "We sell a range of items from gadgets to apparel."]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your hours?", "When are you open?", "What are your opening hours?"],
+        "responses": ["We are open from 9 AM to 5 PM, Monday to Friday.", "Our working hours are 9 AM to 5 PM on weekdays."]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you located?", "What is your address?", "Location"],
+        "responses": ["We are located at 123 Main Street, Anytown, USA.", "Our address is 123 Main Street, Anytown, USA."]
+      }
+    ]
+  }
+  
